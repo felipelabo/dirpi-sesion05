@@ -1,0 +1,82 @@
+[
+	{
+		"id": 1,
+		"name": "Tortilla de patatas",
+		"quantity": 25,
+		"price": 6.5,
+		"desc": "Clásica tortilla española con huevos, patatas y cebolla.",
+		"img": "/images/tortilla-de-patatas.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Paella valenciana",
+		"quantity": 15,
+		"price": 14.9,
+		"desc": "Arroz con pollo, conejo y verdura al estilo tradicional.",
+		"img": "/images/paella-valenciana.jpg"
+	},
+	{
+		"id": 3,
+		"name": "Croquetas de jamón",
+		"quantity": 40,
+		"price": 7.2,
+		"desc": "Crujientes por fuera y cremosas por dentro, con jamón ibérico.",
+		"img": "/images/croquetas-jamon.jpg"
+	},
+	{
+		"id": 4,
+		"name": "Patatas bravas",
+		"quantity": 35,
+		"price": 5.9,
+		"desc": "Patatas fritas con salsa brava ligeramente picante.",
+		"img": "/images/patatas-bravas.jpg"
+	},
+	{
+		"id": 5,
+		"name": "Pulpo a la gallega",
+		"quantity": 18,
+		"price": 16.5,
+		"desc": "Pulpo sobre patata cocida con pimentón y aceite de oliva.",
+		"img": "/images/pulpo-a-la-gallega.jpg"
+	},
+	{
+		"id": 6,
+		"name": "Gazpacho andaluz",
+		"quantity": 30,
+		"price": 6.0,
+		"desc": "Sopa fría de tomate, pepino y pimiento, muy refrescante.",
+		"img": "/images/gazpacho-andaluz.jpg"
+	},
+	{
+		"id": 7,
+		"name": "Calamares a la romana",
+		"quantity": 28,
+		"price": 9.8,
+		"desc": "Anillas de calamar rebozadas y fritas, servidas con limón.",
+		"img": "/images/calamares-a-la-romana.jpg"
+	},
+	{
+		"id": 8,
+		"name": "Jamón ibérico con pan y tomate",
+		"quantity": 22,
+		"price": 12.0,
+		"desc": "Jamón ibérico cortado fino con pan crujiente y tomate rallado.",
+		"img": "/images/jamon-iberico-pan-tomate.jpg"
+	},
+	{
+		"id": 9,
+		"name": "Churros con chocolate",
+		"quantity": 50,
+		"price": 4.8,
+		"desc": "Churros artesanos acompañados de chocolate caliente para mojar.",
+		"img": "/images/churros-con-chocolate.jpg"
+	},
+	{
+		"id": 10,
+		"name": "Flan de huevo",
+		"quantity": 20,
+		"price": 5.2,
+		"desc": "Postre tradicional casero con caramelo líquido.",
+		"img": "/images/flan-de-huevo.jpg"
+	}
+]
