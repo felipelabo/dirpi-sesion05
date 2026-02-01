@@ -5,7 +5,7 @@ import MenuList from './components/MenuList';
 
 function App() {
 
-  const { choosePage, togglePage, data, handleChangeData } = useAdmin();
+  const { choosePage, togglePage } = useAdmin();
 
   return (
     <div className='p-6 flex flex-col items-center'>
@@ -16,8 +16,8 @@ function App() {
       >
         {!choosePage ? 'Realizar pedido' : 'Visualizar stock'}
       </button>
-      {!choosePage && <StockList stock={data}/>}
-      {choosePage && <MenuList items={data} setItems={handleChangeData}/>}
+      {!choosePage && <StockList/>}
+      {choosePage && <MenuList/>}
     </div>
   )
 }

@@ -14,7 +14,7 @@ const MenuItem = ({item,selectItem}: MenuItemProps) => {
         </div>
         <div className='flex flex-col flex-1'>
             <h2 className='text-indigo-500 font-bold'>{item.name}</h2>
-            <p className='text-black mb-2 flex-1 mb-4'>{item.desc}</p>
+            <p className='text-black flex-1 mb-4'>{item.desc}</p>
             {item.quantity > 0 && <p className='text-green-700 text-lg font-bold text-right'>{item.price.toFixed(2)}€</p>}
             {item.quantity == 0 && <p className='text-red-700 text-lg font-bold text-right'>Sin Stock</p>}
         </div>
