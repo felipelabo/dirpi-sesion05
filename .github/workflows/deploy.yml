@@ -30,7 +30,7 @@ jobs:
       - name: Build project
         run: npm run build
         env:
-          VITE_APP_BASE_URL: /dirpi/
+          VITE_APP_BASE_URL: /dirpi-sesion05/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
